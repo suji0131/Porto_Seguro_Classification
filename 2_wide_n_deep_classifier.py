@@ -1,4 +1,8 @@
 
+'''
+THIS IS MY FINAL CLASSIFIER FOR SUBMISSION.
+THE CLASSIFIER IS TRAINED ON GOOGLE CLOUD USING NVIDIA Tesla K80 GPU and 2 vCPUs (10 GB memory).
+'''
 # coding: utf-8
 
 # https://www.tensorflow.org/tutorials/wide_and_deep
