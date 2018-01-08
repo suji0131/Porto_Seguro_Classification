@@ -9,3 +9,10 @@ Bokeh plots of pre_processing are in Pre_processing_plots folder (Github strips 
 
 Other files are either data generation files (last two words of the file will be data_gen.py) or other classifiers I tried.
 
+Explored approaches:
+wide_and_deep (submitted)
+RBMs with Logistic Regression at end
+RBMs with SVMs at end
+SMOTE (with vanilla NN and CNNs)
+Undersampling (with vanilla NN and CNNs)
+Auto encoders
