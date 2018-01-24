@@ -12,7 +12,7 @@ Some of the columns are completely dominated by null values (> 95%) which are dr
 
 ![Feature Importance](https://github.com/suji0131/Porto_Seguro_Classification/blob/master/Pre_processing_plots/Feature%20Importance%20Plot.png)
 
-## Model Architecture
+## Model Architecture, Training & Results
 Here is an excellent [article](https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html) on wide & deep model from people who developed it and here is their [research paper](https://arxiv.org/abs/1606.07792). This model is developed as app recommendation system for android playstore. Wide models (like logistic regression) are good at memorization, learning the frequent co-occurrence of items or features and exploiting the correlation available in the historical data. Deep models (neural networks) are really good at generalization,  relevant feature combinations that have never or rarely occurred in the past. Wide & Deep model combines the power of both to give balanced recommendations. 
 
 There are similarities with data we are working on and their data, like sparse feature vectors and over generalization resulting from unbalanced data. So, I decided to give it a go. All sparse features are included in the wide part and others are used in deep part. Crossed features are obtained using features used in wide part. I read on tensorflow blog that in general hashing and bucketizing improves the accuracy(even the author said they don't know why but I'm guessing hashing somehow improves the differentiation between classes of a feature, I may be wrong). 
